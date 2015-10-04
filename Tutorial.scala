@@ -12,10 +12,10 @@ object Tutorial {
     val checkpointDir = TutorialHelper.getCheckpointDirectory()
 
     // Configure Twitter credentials
-    val apiKey = "MJvkBpGhIPO04KjAsWCPhILhD"
-    val apiSecret = "VebUSxAsuG9nY0ksRfPV73Ejwb9NUvVOe0ynd7aLZbMKzKgeC8"
-    val accessToken = "3031039721-9Abm6Y7NFB65b4gq6FVIhhF1zfRfiwTnagH763I"
-    val accessTokenSecret = "BMuEHm8H5bxwTKOLj8QJmZzwEZ15togEWydepcPet1pJi"
+    val apiKey = ""
+    val apiSecret = ""
+    val accessToken = ""
+    val accessTokenSecret = ""
     TutorialHelper.configureTwitterCredentials(apiKey, apiSecret, accessToken, accessTokenSecret)
 
     // Your code goes here

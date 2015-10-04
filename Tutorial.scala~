@@ -26,7 +26,14 @@ object Tutorial {
     //statuses.print()
     val words = statuses.flatMap(status => status.split(" "))
     val hashtags = words.filter(word => word.startsWith("#"))
-    hashtags.print()
+    val counts = hashtags.map(tag => (tag, 1))
+                     .reduceByKeyAndWindow(_ + _, _ - _, Seconds(60 * 5), Seconds(1))
+    val sortedCounts = counts.map { case(tag, count) => (count, tag) }
+                         .transform(rdd => rdd.sortByKey(false))
+sortedCounts.foreach(rdd =>
+  println("\nTop 10 hashtags:\n" + rdd.take(10).mkString("\n")))
+
+    //hashtags.print()
 
     ssc.checkpoint(checkpointDir)
     
