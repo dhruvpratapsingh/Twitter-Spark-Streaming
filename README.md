@@ -5,12 +5,12 @@
 
 #### This is the MVP based on UC Berkley's AMP-Lab BootCamp. 
 
-Tools Used => 
- -> OS: Ubuntu 
+Tools Used: 
+    -> OS: Ubuntu 
 
- -> Lang: Scala , Build tool: SBT
+    -> Lang: Scala , Build tool: SBT
 
- -> Library: Spark Streaming
+    -> Library: Spark Streaming
 
 Next steps:
 
