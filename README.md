@@ -11,7 +11,7 @@ Tools Used:
 
     -> Lang: Scala , Build tool: SBT
 
-    -> Library: Spark Streaming
+    -> Library: Spark Streaming, Twitter API
 
 Next steps:
 
