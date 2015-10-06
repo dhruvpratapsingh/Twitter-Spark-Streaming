@@ -1,9 +1,9 @@
 # Twitter-Spark-Streaming
-## Streaming app to display the top 10 Hashtags on twitter from the five minute collected data
+### Streaming app to display the top 10 Hashtags on twitter from the five minutes feed data
 
 ![Alt text](https://github.com/dhruvpratapsingh/Twitter-Spark-Streaming/blob/master/hashtag.png "Demo")
 
-### This is the MVP based on UC Berkley's AMP-Lab BootCamp. 
+#### This is the MVP based on UC Berkley's AMP-Lab BootCamp. 
 
 OS: Ubuntu 
 
@@ -15,6 +15,8 @@ Next steps:
 
     -> Add Cassandra
     
-    -> Add MLLib
+    -> Use MLLib to create someting cool
+    
+    -> Use D3js for data visualization
     
 Fun Fact: Justin Beiber was trending at the time I ran app :P
