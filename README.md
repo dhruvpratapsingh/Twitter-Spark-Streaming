@@ -5,7 +5,8 @@
 
 #### This is the MVP based on UC Berkley's AMP-Lab BootCamp. 
 
-Tools Used: 
+Tools Used:
+
     -> OS: Ubuntu 
 
     -> Lang: Scala , Build tool: SBT
