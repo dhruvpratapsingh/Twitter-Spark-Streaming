@@ -5,5 +5,7 @@
 This is the MVP based on UC Berkley's AMP-Lab Training Camp. 
 
 Next steps:
+
     -> Add Cassandra
+    
     -> Add MLLib
