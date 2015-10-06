@@ -21,4 +21,4 @@ Next steps:
     
     -> Use D3js for data visualization
     
-##### Fun Fact: Justin Beiber was trending at the time I ran app :P
+##### Fun Fact: Justin Bieber was trending at the time I ran app :P
