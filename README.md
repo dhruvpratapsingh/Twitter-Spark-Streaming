@@ -15,7 +15,7 @@ Next steps:
 
     -> Add Cassandra
     
-    -> Use MLLib to create someting cool
+    -> Use MLLib to create something cool
     
     -> Use D3js for data visualization
     
